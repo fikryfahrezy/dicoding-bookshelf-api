@@ -1,0 +1,31 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API for Dicoding final project",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikryfahrezy/bookshelf-api-dicoding.git"
+  },
+  "author": "Fikry Fahrezy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fikryfahrezy/bookshelf-api-dicoding/issues"
+  },
+  "homepage": "https://github.com/fikryfahrezy/bookshelf-api-dicoding#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
