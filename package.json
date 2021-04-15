@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Bookshelf API for Dicoding final project",
   "main": "./src/index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
     "dev": "nodemon ./src/index.js",
-    "lint": "eslint ./src"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,17 @@
   },
   "homepage": "https://github.com/fikryfahrezy/bookshelf-api-dicoding#readme",
   "dependencies": {
+    "@hapi/boom": "^9.1.2",
     "@hapi/hapi": "^20.1.2",
+    "joi": "^17.4.0",
     "nanoid": "^3.1.22"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
   }
 }
